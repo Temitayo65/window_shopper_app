@@ -6,15 +6,30 @@
 //
 
 import UIKit
-
+@IBDesignable
 class CustomTextField: UITextField {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    override func prepareForInterfaceBuilder() {
+        customView()
     }
-    */
-
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        customView()
+    }
+    
+    func customView(){
+        backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.25)
+        textAlignment = .center
+        layer.cornerRadius = 5.0
+        
+        if let p = placeholder{
+            let place = NSAttributedString(string: p, attributes: [.foregroundColor:#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)] )
+            attributedPlaceholder = place
+            textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+            
+        }
+    }
+   
+    
 }
