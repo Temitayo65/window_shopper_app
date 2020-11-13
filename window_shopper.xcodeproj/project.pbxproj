@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB29B63A255E10DB0028354C /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB29B639255E10DB0028354C /* Wage.swift */; };
+		EB29B63B255E10DB0028354C /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB29B639255E10DB0028354C /* Wage.swift */; };
 		EB4B6FD4255CAB4000DE8455 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4B6FD3255CAB4000DE8455 /* AppDelegate.swift */; };
 		EB4B6FD6255CAB4000DE8455 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4B6FD5255CAB4000DE8455 /* SceneDelegate.swift */; };
 		EB4B6FD8255CAB4000DE8455 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4B6FD7255CAB4000DE8455 /* MainVC.swift */; };
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB29B639255E10DB0028354C /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
 		EB4B6FD0255CAB4000DE8455 /* window_shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = window_shopper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB4B6FD3255CAB4000DE8455 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB4B6FD5255CAB4000DE8455 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -151,6 +154,7 @@
 		EB4B7083255E0A8E00DE8455 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EB29B639255E10DB0028354C /* Wage.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -287,6 +291,7 @@
 			files = (
 				EB4B700D255D729200DE8455 /* CustomTextField.swift in Sources */,
 				EB4B6FD8255CAB4000DE8455 /* MainVC.swift in Sources */,
+				EB29B63A255E10DB0028354C /* Wage.swift in Sources */,
 				EB4B6FD4255CAB4000DE8455 /* AppDelegate.swift in Sources */,
 				EB4B6FD6255CAB4000DE8455 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB4B6FEB255CAB4600DE8455 /* window_shopperTests.swift in Sources */,
+				EB29B63B255E10DB0028354C /* Wage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
