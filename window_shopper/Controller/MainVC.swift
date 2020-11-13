@@ -23,7 +23,7 @@ class MainVC: UIViewController {
         
         wageTextField.inputAccessoryView = calculateButton
         priceTextField.inputAccessoryView = calculateButton
-            
+
     }
 
     @objc func calculate(){
