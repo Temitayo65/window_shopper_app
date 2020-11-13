@@ -101,7 +101,7 @@
 		EB4B6FD2255CAB4000DE8455 /* window_shopper */ = {
 			isa = PBXGroup;
 			children = (
-				EB4B7008255D6D0000DE8455 /* Model */,
+				EB4B7083255E0A8E00DE8455 /* Model */,
 				EB4B7007255D6CF700DE8455 /* View */,
 				EB4B7006255D6CE600DE8455 /* Controller */,
 				EB4B6FD3255CAB4000DE8455 /* AppDelegate.swift */,
@@ -148,7 +148,7 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		EB4B7008255D6D0000DE8455 /* Model */ = {
+		EB4B7083255E0A8E00DE8455 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
